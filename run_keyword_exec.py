@@ -40,8 +40,8 @@ class ExecCommand(object):
     
   def run_command(self, command):
     """Parses and excecuted a command."""
-   print("Executing: [{}]".format(command))
-   os.system(command)
+    print("Executing: [{}]".format(command))
+    os.system(command)
 
 
 def main():
